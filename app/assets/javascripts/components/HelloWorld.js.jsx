@@ -1,5 +1,7 @@
 'use strict';
 
+const React = require('react');
+
 class HelloWorld extends React.Component {
   render() {
     return (
@@ -10,4 +12,4 @@ class HelloWorld extends React.Component {
   }
 }
 
-window.HelloWorld = HelloWorld;
+module.exports = HelloWorld;
